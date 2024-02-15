@@ -1640,3 +1640,16 @@ form .form-btn:hover{
 .donation .online-cont{
   margin-top: 4rem;
 }
+@media only screen and (max-width: 800px) {
+  .donation form{
+    justify-content: center;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    width: 100%;
+    background: rgb(204, 203, 203);
+    padding: 20px;
+    border-radius: 10px;
+  }
+}
